@@ -1,144 +1,35 @@
 <!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kingregan Academy Trust</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: 'Roboto', sans-serif;
-      background-color: #fdf6e3;
-      color: #333;
-    }
-    header {
-      background-color: #004080;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin-bottom: 10px;
-    }
-    nav {
-      background-color: #e0c36e;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 10px 0;
-      font-weight: bold;
-      flex-wrap: wrap;
-    }
-    nav a {
-      color: #4b2e13;
-      text-decoration: none;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      max-width: 900px;
-      margin: 30px auto;
-      padding: 20px;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    .btn {
-      display: inline-block;
-      background-color: #004080;
-      color: #fff;
-      padding: 10px 15px;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 10px;
-    }
-    form {
-      margin-top: 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    input, textarea {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 1em;
-    }
-    input[type="submit"] {
-      background-color: #004080;
-      color: white;
-      cursor: pointer;
-      border: none;
-    }
-    input[type="submit"]:hover {
-      background-color: #003366;
-    }
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px;
-      margin-top: 20px;
-    }
-    .gallery img {
-      width: 100%;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 6px;
-    }
-    footer {
-      text-align: center;
-      background-color: #4b2e13;
-      color: white;
-      padding: 20px;
-      margin-top: 40px;
-    }
+    body { font-family: 'Roboto', sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+    header { background-color: #004080; color: #fff; padding: 20px; text-align: center; }
+    nav { background-color: #e0c36e; display: flex; justify-content: center; gap: 20px; padding: 10px 0; flex-wrap: wrap; }
+    nav a { color: #4b2e13; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    section { max-width: 900px; margin: 30px auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h2 { margin-bottom: 15px; color: #004080; }
+    ul { list-style: none; padding: 0; }
+    ul li { margin: 10px 0; }
+    a.btn { display: inline-block; background-color: #004080; color: #fff; padding: 10px 15px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+    form { display: flex; flex-direction: column; gap: 10px; margin-top: 20px; }
+    input, textarea, select { padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 1em; }
+    input[type="submit"] { background-color: #004080; color: #fff; cursor: pointer; border: none; }
+    input[type="submit"]:hover { background-color: #003366; }
   </style>
 </head>
-<body>  <header>
-    <h1>Kingregan Academy</h1>
-    <p>Empowering you with Chemistry and Biology Knowledge</p>
+<body>
+  <header>
+    <h1>Kingregan Academy Trust</h1>
+    <p>Empowering Students with Quality Educational Resources</p>
   </header>  <nav>
-    <a href="#home">Home</a>
-    <a href="#notes">Notes</a>
-    <a href="#videos">Videos</a>
-    <a href="#tuition">Tuition</a>
-    <a href="#gallery">Gallery</a>
+    <a href="#materials">Buy Materials</a>
+    <a href="#downloads">Free Downloads</a>
     <a href="#contact">Contact</a>
-    <a href="#comments">Comments</a>
-    <a href="#payments">Payments</a>
-  </nav>  <section id="home">
-    <h2>Welcome to Kingregan Academy Trust</h2>
-    <p>This platform offers you free and premium content in Chemistry and Biology for advanced level  and ordinary level students in Tanzania and beyond.</p>
-  </section>  <section id="notes">
-    <h2>Download Notes and exams with marking scheme</h2>
-    <p>Click below to access summarized exam-ready notes:</p>
-    <ul>
-      <li><a href="https://drive.google.com/drive/folders/1l4QS2AITj-z4iITFOG9Nc5JX8Dvcp5u4" target="_blank">Form 5 & 6 Chemistry Notes</a></li>
-      <li><a href="https://drive.google.com/drive/folders/1v9xlvHRdXmTbPgBIz6ClQJpfqBsjXxzv" target="_blank">Form 5 & 6 Biology Notes</a></li>
-      <li><a href="https://drive.google.com/drive/folders/1nJVH0miWai-IUraRw_Ua2No2S3mFzr0S" target="_blank">Chemistry Exercises</a></li>
-      <li><a href="https://drive.google.com/drive/folders/1v9inUB0lBX3sibtPBcxdLdHdMIVwB1cx" target="_blank">Biology Exercises</a></li>
-    </ul>
-
-    Buy Teaching Materials – TZS 5,000/= Each 
-
-Mock exams and new syllabus scheme of work are available for the following Advanced Level subjects:
-
-Chemistry Biology Commerce History Geography 
-
-Scheme of Work Preview: Click to View
-
-Payment Instructions:
-Dial *150*00# → Lipa kwa Simu → Weka namba: +255 756 289 572 → Weka kiasi: 5000
-
-<form action="https://formsubmit.co/reganfrank140@gmail.com" method="POST"> <input type="text" name="name" placeholder="Your Name" required> <select name="material" required> <option value="">Select Material</option> <option value="Chemistry Mock Exam">Chemistry Mock Exam</option> <option value="Chemistry Scheme">Chemistry Scheme of Work</option> <option value="Biology Mock Exam">Biology Mock Exam</option> <option value="Biology Scheme">Biology Scheme of Work</option> <option value="Commerce Scheme">Commerce Scheme of Work</option> <option value="History Scheme">History Scheme of Work</option> <option value="Geography Scheme">Geography Scheme of Work</option> </select> <textarea name="message" rows="4" placeholder="Payment reference or message..."></textarea> <input type="submit" value="Order Material"> </form> 📥 Free Downloads 
-
-Access free study resources, sample papers and revision materials below:
-
-📘 Chemistry Notes – Form 5 & 6 🧬 Biology Notes – Form 5 & 6 🧪 Chemistry Exercises 🔬 Biology Exercises 📂 Scheme of Work – New Syllabus 
-
-    <!-- ... HTML code before remains unchanged ... -->  <section id="materials">
+  </nav>  <section id="materials">
     <h2>Buy Teaching Materials – TZS 5,000/= Each</h2>
     <p>Mock exams and new syllabus scheme of work are available for the following Advanced Level subjects:</p>
     <ul>
@@ -166,49 +57,19 @@ Access free study resources, sample papers and revision materials below:
   <input type="submit" value="Order Material">
 </form>
 
-  </section><!-- ... HTML code after remains unchanged ... -->
-  </section>  <section id="videos">
-    <h2>Video Lessons</h2>
-    <p>Learn visually via our YouTube channel. Subscribe and stay updated:</p>
-    <a href="https://www.youtube.com/@reganfrank5725" target="_blank" class="btn">Watch Videos</a>
-  </section>  <section id="tuition">
-    <h2>Join Online Tuition</h2>
-    <p>Interested in private sessions with KingRegan? Get personalized coaching via WhatsApp or Zoom.</p>
-    <a href="https://wa.me/255756289572" target="_blank" class="btn">Join via WhatsApp</a>
-  </section>  <section id="gallery">
-    <h2>Gallery</h2>
-    <p>Take a look at our students in action, classroom setups, and science resources.</p>
-    <div class="gallery">
-      <img src="https://via.placeholder.com/300x200?text=Chemistry+Lab" alt="Chemistry Lab">
-      <img src="https://via.placeholder.com/300x200?text=Biology+Class" alt="Biology Class">
-      <img src="https://via.placeholder.com/300x200?text=Microscope" alt="Microscope">
-      <img src="https://via.placeholder.com/300x200?text=KingRegan+Teaching" alt="Teaching">
-    </div>
+  </section>  <section id="downloads">
+    <h2>📥 Free Downloads</h2>
+    <p>Access free study resources, sample papers and revision materials below:</p>
+    <ul>
+      <li><a href="https://drive.google.com/drive/folders/1l4QS2AITj-z4iITFOG9Nc5JX8Dvcp5u4" target="_blank">📘 Chemistry Notes – Form 5 & 6</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1v9xlvHRdXmTbPgBIz6ClQJpfqBsjXxzv" target="_blank">🧬 Biology Notes – Form 5 & 6</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1nJVH0miWai-IUraRw_Ua2No2S3mFzr0S" target="_blank">🧪 Chemistry Exercises</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1v9inUB0lBX3sibtPBcxdLdHdMIVwB1cx" target="_blank">🔬 Biology Exercises</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1t6O0sz0eP2MVnCuHAlrvzGIJ6u54iKv-" target="_blank">📂 Scheme of Work – New Syllabus</a></li>
+    </ul>
   </section>  <section id="contact">
     <h2>Contact & Payment</h2>
-    <p>Phone/WhatsApp: +255 756 289 572</p>
-    <p>Email: reganfrank140@gmail.com</p>
-    <p>Payments via M-Pesa:</p>
-    <p>Payments </p>
-    <a href="https://m-pesaapp.vodacom.co.tz/p2p/mpesa/sendmoney/+255756289572" target="_blank" class="btn">Pay with M-Pesa</a><h3 style="margin-top:30px;">📩 Submit Payment Confirmation</h3>
-<form action="https://formsubmit.co/reganfrank140@gmail.com" method="POST">
-  <input type="text" name="name" placeholder="Your Name" required>
-  <input type="text" name="amount" placeholder="Amount Paid (TZS)" required>
-  <textarea name="message" rows="4" placeholder="Optional Message"></textarea>
-  <input type="submit" value="Send Confirmation">
-</form>
-
-  </section>  <section id="comments">
-    <h2>💬 Leave a Comment</h2>
-    <form action="https://formsubmit.co/your-email@example.com" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <textarea name="comment" rows="4" placeholder="Write your comment or feedback..." required></textarea>
-      <input type="submit" value="Post Comment">
-    </form>
-   
-
-  </section><!-- ... HTML code after remains unchanged ... --> 
-  </section>  <footer>
-    <p>&copy; 2025 Kingregan Academy Trust. All rights reserved.</p>
-  </footer></body>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/255756289572" target="_blank">+255 756 289 572</a></p>
+    <p><strong>Email:</strong> reganfrank140@gmail.com</p>
+  </section></body>
 </html>
